@@ -8,3 +8,5 @@ set( FILES
 add_executable( HelloWorld ${FILES} )
 
 install(TARGETS HelloWorld DESTINATION .)
+
+#set(CMAKE_SYSTEM_NAME Windows)
